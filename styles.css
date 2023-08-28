@@ -1,1 +1,32 @@
 /*  your css code here. If applicable */
+body {
+  margin: 0; 
+}
+
+.imageContainer {
+  width: 1100px;
+  margin: 0 auto; 
+}
+
+table {
+	width: 100%;
+}
+
+th, td {
+	border: 1px solid black;
+	padding: 10px;
+	text-align: center;
+}
+
+th:first-child, td:first-child,
+th:last-child, td:last-child {
+	width: 200px;
+}
+    
+th:nth-child(2), td:nth-child(2) {
+	width: 600px;
+}
+
+td {
+	vertical-align: middle; 
+}
